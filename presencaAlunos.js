@@ -1,4 +1,13 @@
-const = 30
-var pares = [2,4,6,8,10,12,14,16,18,20]
-var impares = [1,3,5,7,9,11,13,15,17,19]
+var alunos = 6
+
+for (let index = 0; index <= alunos; index ++){
+    if (index ==0){
+        console.log ("Zero alunos")
+    }else if (index % 2 ==0){
+        console.log ("O Número" + index + " Número é Par");{
+        }
+            }else{
+        console.log ("O Número" + index + " Número é Ímpar")
+    }
+}
 
